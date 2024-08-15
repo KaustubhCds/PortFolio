@@ -1,0 +1,16 @@
+.desc{
+    animation-name: anim;
+    animation-duration: 2s;
+    animation-delay: 10ms;
+    position: relative;
+}
+
+@keyframes anim {
+    from{
+        transform: translate(200px);
+    }
+    to{
+        transform: translate(0px);
+    }
+    
+}

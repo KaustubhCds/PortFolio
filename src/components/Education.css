@@ -1,0 +1,19 @@
+.ed{
+    animation-name: about;
+    animation-delay: 10ms;
+    animation-duration: 2s;
+    position: relative;
+}
+.edu{
+    animation-name: about;
+}
+
+@keyframes about {
+    from{
+        transform: translate(200px);
+    }
+    to{
+        transform: translate(0px);
+    }
+    
+}
