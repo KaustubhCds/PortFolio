@@ -1,16 +1,29 @@
-.desc{
-    animation-name: anim;
-    animation-duration: 2s;
-    animation-delay: 10ms;
-    position: relative;
+.desc {
+  animation-name: anim;
+  animation-duration: 2s;
+  animation-delay: 10ms;
+  position: relative;
+}
+.kp {
+  animation-name: k;
+  animation-duration: 2s;
+  animation-delay: 10ms;
+  position: relative;
+}
+@keyframes k {
+  from {
+    transform: translate(-400px);
+  }
+  to {
+    transform: translate(0px);
+  }
 }
 
 @keyframes anim {
-    from{
-        transform: translate(200px);
-    }
-    to{
-        transform: translate(0px);
-    }
-    
+  from {
+    transform: translate(200px);
+  }
+  to {
+    transform: translate(0px);
+  }
 }

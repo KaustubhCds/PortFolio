@@ -11,7 +11,7 @@ const Project = () => {
         </div>
         <div className="flex justify-between mt-20">
           <a href="https://chargeeazy.com/" target="_blank">
-          <div className="h-72  grid place-content-center">
+          <div className="h-72  grid place-content-center kp">
             <img src={img1} className="h-fit  about" alt="" />
           </div>
           </a>
@@ -33,7 +33,7 @@ const Project = () => {
         <div className="">
           <div className="flex justify-between mt-12 ">
             <a href="https://chat-app-mern-qk1k.onrender.com/ "target="_blank">
-            <div className="h-96 grid place-content-center">
+            <div className="h-96 grid place-content-center kp">
               <img src={img} className="h-72 about relative left-12" alt="" />
             </div>
             </a>
